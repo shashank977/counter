@@ -1,8 +1,7 @@
 body{
-    min-height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    background: white;
+    color:  rgb(75, 69, 69);
+    font-family: sans-serif;
 }
 
 .btn{
@@ -11,18 +10,25 @@ body{
     border-radius: 7px;
     color: #fefefe;
     background: rgba(0,0,0,0.6);
-    font-size: 20px;
+    font-size: 15px;
     text-transform: capitalize;
     cursor: pointer;
     outline: none;
 }
 
 span{
-    font-size: 25px;
+    font-size: 35px;
     font-style: initial;
+    font-family: sans-serif;
 }
 
 h1{
     font-size: 40px;
-    font-weight: lighter;
+    font-weight: normal;
+}
+
+.container{
+    margin: 0;
+    border: 0;
+    padding: 1rem;
 }
