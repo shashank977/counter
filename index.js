@@ -17,7 +17,7 @@ btns.forEach(function(btn){
         }
         
         
-    /*-----color-----*/
+    // color
 
         if(count>0){
             value.style.color="green";
@@ -26,7 +26,7 @@ btns.forEach(function(btn){
             value.style.color= "red";
         }
         else{
-            value.style.color= "black";
+            value.style.color= "rgb(75, 69, 69)";
         }
         value.textContent = count;
     });
